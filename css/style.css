@@ -21,7 +21,6 @@ html {
 header {
     background-image: url(../img/jumbo.png);
     width: 100%;
-    /* height: 500px; */
     background-size: cover;
 }
 
@@ -173,10 +172,91 @@ h1 {
 
 .container.four .btn.big{
     margin-top: 1.5em;
-    background-color: rgb(127, 119, 241);
+    background-color: #8ea1e1;
     color: white;
 }
 
 .container.four h1{
     font-size: 3em;
+}
+
+.cln-footer {
+    margin-right: 1.5em;
+    width: calc (20% - 1.5em);
+}
+
+.twitter-icon, 
+.facebook-icon,
+.instagram-icon,  
+.youtube-icon {
+    width: 40px;
+	height: 40px;
+    border-radius: 25px;
+}
+  
+
+.cln-footer.first a:hover {
+    box-shadow: 0 10px 5px 5px white;
+    border-radius: 50%;
+}
+
+li {
+    list-style-type: none;
+    margin: 1em;
+}
+
+li:first-child {
+    color: #8ea1e1;
+}
+
+li:nth-child(2) img {
+    width: 2em;
+    vertical-align: middle;
+}
+
+.li-inline {
+    display: inline-block;
+}
+
+.pie {
+    width: 80%;
+    margin: 0 auto;
+    padding: 3em 3em;
+}
+
+footer {
+    background-color: black;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer a:hover,
+footer a:active,
+footer a:focus {
+    text-decoration: underline;
+}
+
+.cln-footer {
+    float: left;
+}
+
+.footer.bottom {
+    border-top:1px solid #8ea1e1;
+}
+
+.footer.bottom a {
+    background-color: #8ea1e1;
+    color: white;
+}
+
+.footer.bottom .logo {
+    float: left;
+}
+
+.footer.bottom .btn.big {
+    float: right;
 }
