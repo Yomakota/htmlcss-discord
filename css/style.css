@@ -125,6 +125,8 @@ a.btn.dark:focus {
     color: #265ee8;
 }
 
+/* main */
+
 .clearfix::after {
     clear: both;
     display: table;
@@ -132,8 +134,9 @@ a.btn.dark:focus {
 }
 
 .container {
-    width: 90%;
-    margin: 2em auto;
+    width:90%;
+    margin: 7em auto;
+    padding: 7em;
 }
 
 .col {
@@ -153,9 +156,27 @@ a.btn.dark:focus {
 .col.text {
     padding-top: 1em;
     width: 40%;
-    font-size: 2em;
 }
 
-.col.text h1 {
-    margin-bottom: 0.5em;
+h1 {
+    margin-bottom: 0.4em;
+    font-size: 3.5em;
+}
+
+.col.text p{
+    font-size: 1.7em;
+}
+
+.container.four {
+    text-align: center;
+}
+
+.container.four .btn.big{
+    margin-top: 1.5em;
+    background-color: rgb(127, 119, 241);
+    color: white;
+}
+
+.container.four h1{
+    font-size: 3em;
 }
