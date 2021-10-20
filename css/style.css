@@ -166,31 +166,30 @@ h1 {
     font-size: 1.7em;
 }
 
-.container.four {
+.container.fourth {
     text-align: center;
 }
 
-.container.four .btn.big{
+.container.fourth .btn.big{
     margin-top: 1.5em;
     background-color: #8ea1e1;
     color: white;
 }
 
-.container.four h1{
+.container.fourth h1{
     font-size: 3em;
 }
 
-.cln-footer {
-    margin-right: 1.5em;
-    width: calc (20% - 1.5em);
+.cln-footer.first {
+    width: 25%;
 }
 
 .twitter-icon, 
 .facebook-icon,
 .instagram-icon,  
 .youtube-icon {
-    width: 40px;
-	height: 40px;
+    width: 20px;
+	height: 20px;
     border-radius: 25px;
 }
   
@@ -218,34 +217,37 @@ li:nth-child(2) img {
     display: inline-block;
 }
 
-.pie {
-    width: 80%;
+.footer {
+    width: 90%;
     margin: 0 auto;
-    padding: 3em 3em;
+    padding: 2em;
 }
 
 footer {
     background-color: black;
+    color: white;
 }
 
-footer a {
+.footer a {
     text-decoration: none;
     font-weight: bold;
     color: white;
 }
 
-footer a:hover,
-footer a:active,
-footer a:focus {
+.footer a:hover,
+.footer a:active,
+.footer a:focus {
     text-decoration: underline;
 }
 
 .cln-footer {
+    width: calc (75% / 4);
     float: left;
+    margin-right: 2em;
 }
 
 .footer.bottom {
-    border-top:1px solid #8ea1e1;
+    border-top: 1px solid #8ea1e1;
 }
 
 .footer.bottom a {
