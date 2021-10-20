@@ -124,3 +124,38 @@ a.btn.dark:active,
 a.btn.dark:focus {
     color: #265ee8;
 }
+
+.clearfix::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.container {
+    width: 90%;
+    margin: 2em auto;
+}
+
+.col {
+    float: left;
+}
+
+.col.img {
+    width: 60%;
+}
+
+.col.img img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.col.text {
+    padding-top: 1em;
+    width: 40%;
+    font-size: 2em;
+}
+
+.col.text h1 {
+    margin-bottom: 0.5em;
+}
